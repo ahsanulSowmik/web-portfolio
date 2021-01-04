@@ -1,8 +1,15 @@
 body{
     font-family: 'Arimo', sans-serif;
+    margin: 0;
+}
+.top{
+    height: 500px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 h1{
-    font: 50px;
+    font-size: 50px;
+    font-weight: bold;
     margin-top:10%;
 }
 .nameHighlite{
@@ -18,3 +25,4 @@ h1{
 .half-width img{
     width: 100%;
 }
+

@@ -47,24 +47,42 @@ section{
 .single-experiance{
     box-shadow: 20px 20px 40px gray;
     border-radius: 5px;
-    height: 50%;
+    height: 80%;
+    width: 25%;
     
 }
 .experience{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}
+    /* background-image: url("images/exp-bg.png"); */
+    /* background-repeat: no-repeat; */
+    background-color: rgba(221, 201, 201, 0.829);
+    background-position: right top;
+    
+    
+    
+    /* background-position: left;*/
+} 
 #fullStack{
     border-left: 7px solid;
-    border-image: linear-gradient (180deg, rgb(216, 137, 106),tomato );
+    border-image: linear-gradient(180deg, rgb(216, 137, 106),tomato );
     border-image-slice: 1;
+    background-color: white;
 }
 #bia{
     border-left: 7px solid;
-    border-image: linear-gradient (180deg, rgb(130, 141, 241),rgb(42, 63, 247) );
+    border-image: linear-gradient(180deg, rgb(130, 141, 241),rgb(42, 63, 247) );
     border-image-slice: 1;
+    background-color: white;
 }
 footer p{
     text-align: center;
+}
+.image{
+    width:300px; 
+    text-align:center; 
+     padding:20px; 
+}
+#E{
+    padding-top: 3%;
+    text-align: center;
+    
 }
